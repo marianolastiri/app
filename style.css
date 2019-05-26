@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	background-color: #006666;
+	font-family: 'Raleway', sans-serif;
+	color: #CEE7E7;
+}
+
+/*Logo del encabezado*/
+
+#logo {
+	float: right;
+	margin: 20px 20px 0px 0px;
+}
+
+h1 {
+	display: inline-block;
+	color: #E88B3D;
+}
+
+/*Icono de la empresa*/
+
+.fa-certificate {
+	display: inline-block;
+	font-size: 36px;
+	margin-right: 10px;
+	margin-top: 3px;
+
+}
+
+
+/*Sección principal con imagen de fondo y botones para acceder*/
+.main {
+	background-image: url("./imagenes/federico-beccari-67272-unsplash.jpg");
+	background-size: cover;
+	background-color: #003535;
+	padding: 20px;
+}
+
+/*Sección con botones de acceso*/
+
+.marco {
+	width: 60%;
+  	background-color: rgba(0, 102, 102, 0.75);
+  	color: #CEE7E7;
+  	text-align: center;
+  	margin: auto;
+  	padding: 100px;
+  	border-radius: 10px;
+}
+
+/*Botones de acceso*/
+
+.opciones {
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  border-color: #CEE7E7;
+  color: #CEE7E7;
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+a:hover {
+  background-color: rgba(206, 231, 231, 0.3);
+}
+
+
+/*Pie de págica con direcciones de contacto de la empresa y vínculos a redes sociales*/
+address {
+	display: inline-block;
+	padding: 20px;
+	line-height: 1.3;
+}
+
+/*Iconos de redes sociales*/
+
+.fa-instagram, .fa-twitter-square, .fa-facebook-square {
+	font-size: 30px;
+	float: right;
+	padding: 20px 20px 20px 0px;
+	margin-top: 5px;
+}
+
+
+/*Menú desplegable*/
+
+.icon {
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #CEE7E7;
+  margin: 6px;
+  text-align: right;
+
+}
+
+.dropdown {
+	display: inline-block;
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: rgba(0, 102, 102, 0.75);
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	min-width: 250px;
+  	padding-top: 50px;
+  	left: 0px;
+  	top: 0px;
+  	bottom: 0px;
+  	border-top-right-radius: 10px;
+
+}
+
+.dropdown-content a {
+	display: block;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	text-align: center;
+  	font-size: 20px;
+  	color: #CEE7E7;
+}
+
+.dropdown-content a:hover {background-color: #258B8B;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .icon {
+  background-color: #258B8B;
+}
